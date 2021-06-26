@@ -2,7 +2,7 @@
 const { Schema, model } = require('../mongodb')
 
 const FullName = new Schema({
-	n_iter:{
+	n_iter: {
 		type: Number,
 		unique: true
 	},
