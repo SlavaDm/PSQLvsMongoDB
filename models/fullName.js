@@ -1,5 +1,5 @@
 
-const { Schema, model } = require('../mogodb')
+const { Schema, model } = require('../mongodb')
 
 const FullName = new Schema({
 	n_iter:{
